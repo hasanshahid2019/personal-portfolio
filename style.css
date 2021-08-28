@@ -1,0 +1,94 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    width: 100%;
+    height: 50px;
+    position: relative;
+}
+header div{
+    float: left;
+    align-items: center;
+    justify-content: space-between;
+}
+header .logo{
+    margin-left: 200px;
+    padding: 20px;
+}
+header .nav{
+    position: absolute;
+    top: 0ex;
+    right: 0ex;
+    margin-right: 200px;
+}
+header .nav ul{
+    list-style: none;
+}
+header .nav ul li{
+    float: left;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+header .nav ul li a{
+    text-decoration: none;
+    color: rgb(22, 12, 12);
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+header .nav ul li a:hover{
+    color: rgb(60, 60, 196);
+}
+
+/* ---- SECTION --01 --------- 
+----------START------------- */
+section{
+    background-color: #f9f9ff;
+    width: 100%;
+    height: 750px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.half1 , .half2{
+    width: 50%;
+}
+.half1{
+    margin-left: 230px;
+    margin-bottom: 120px;
+   
+}
+.half2{
+    margin-right: 160px;
+}
+.half2 img{
+    max-width: 100%;
+    height: auto;
+}
+.half1 h3{
+    font-weight: normal;
+}
+.half1 h1{
+    font-size: 50px;
+}
+.half1 p{
+    color: rgb(148, 127, 127);
+}
+.half1 input{
+    padding: 8px 20px;
+    background-color: #8490ff;
+    outline: none;
+    color: white;
+    border: 1px solid #8490ff;
+    font-size: 15px;
+}
+.half1 input:hover{
+    box-sizing: 5px 10px 30px rgba(130,147,255, 0.5); 
+    transition: all 0.5s ease-in 0.1s;
+    outline: none; 
+}
